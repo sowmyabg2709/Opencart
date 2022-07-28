@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-07-28T11:03:41Z" name="Demo Cart Automation Test automtion regression suite" finished-at="2022-07-28T11:04:12Z" duration-ms="30723">
+    <groups>
+    </groups>
+    <test started-at="2022-07-28T11:03:41Z" name="Login Page Test" finished-at="2022-07-28T11:03:46Z" duration-ms="5185">
+      <class name="com.OpenCart.test.LoginPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OpenCart.test.LoginPageTest@22a0d4ea]" started-at="2022-07-28T11:03:41Z" name="setUp" finished-at="2022-07-28T11:03:46Z" duration-ms="4750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="logiPageTitleTest()[pri:1, instance:com.OpenCart.test.LoginPageTest@22a0d4ea]" started-at="2022-07-28T11:03:46Z" name="logiPageTitleTest" finished-at="2022-07-28T11:03:46Z" duration-ms="80" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logiPageTitleTest -->
+        <test-method signature="loginPageUrlTest()[pri:2, instance:com.OpenCart.test.LoginPageTest@22a0d4ea]" started-at="2022-07-28T11:03:46Z" name="loginPageUrlTest" finished-at="2022-07-28T11:03:46Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPageUrlTest -->
+        <test-method signature="forgotPwdLinkTest()[pri:3, instance:com.OpenCart.test.LoginPageTest@22a0d4ea]" started-at="2022-07-28T11:03:46Z" name="forgotPwdLinkTest" finished-at="2022-07-28T11:03:46Z" duration-ms="43" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPwdLinkTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.test.LoginPageTest@22a0d4ea]" started-at="2022-07-28T11:03:46Z" name="tearDown" finished-at="2022-07-28T11:03:46Z" duration-ms="150" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OpenCart.test.LoginPageTest -->
+    </test> <!-- Login Page Test -->
+    <test started-at="2022-07-28T11:03:47Z" name="Login Page negative Test" finished-at="2022-07-28T11:03:52Z" duration-ms="4956">
+      <class name="com.OpenCart.test.LoginNegativeTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OpenCart.test.LoginNegativeTest@36cc9385]" started-at="2022-07-28T11:03:47Z" name="setUp" finished-at="2022-07-28T11:03:49Z" duration-ms="2870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.LoginNegativeTest@36cc9385]" started-at="2022-07-28T11:03:49Z" name="loginNegativeTest" data-provider="loginNegativeData" finished-at="2022-07-28T11:03:50Z" duration-ms="925" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.LoginNegativeTest@36cc9385]" started-at="2022-07-28T11:03:50Z" name="loginNegativeTest" data-provider="loginNegativeData" finished-at="2022-07-28T11:03:51Z" duration-ms="471" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[test45]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.LoginNegativeTest@36cc9385]" started-at="2022-07-28T11:03:51Z" name="loginNegativeTest" data-provider="loginNegativeData" finished-at="2022-07-28T11:03:51Z" duration-ms="525" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[  ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginNegativeTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.test.LoginNegativeTest@36cc9385]" started-at="2022-07-28T11:03:51Z" name="tearDown" finished-at="2022-07-28T11:03:52Z" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OpenCart.test.LoginNegativeTest -->
+    </test> <!-- Login Page negative Test -->
+    <test started-at="2022-07-28T11:03:52Z" name="Accounts Page Test" finished-at="2022-07-28T11:03:56Z" duration-ms="4215">
+      <class name="com.OpenCart.test.AccountsPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OpenCart.test.AccountsPageTest@4f66ffc8]" started-at="2022-07-28T11:03:52Z" name="setUp" finished-at="2022-07-28T11:03:54Z" duration-ms="2767" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="accPageSetUp()[pri:0, instance:com.OpenCart.test.AccountsPageTest@4f66ffc8]" started-at="2022-07-28T11:03:54Z" name="accPageSetUp" finished-at="2022-07-28T11:03:56Z" duration-ms="1132" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageSetUp -->
+        <test-method signature="accPageHeaderTest()[pri:0, instance:com.OpenCart.test.AccountsPageTest@4f66ffc8]" started-at="2022-07-28T11:03:56Z" name="accPageHeaderTest" finished-at="2022-07-28T11:03:56Z" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accPageHeaderTest -->
+        <test-method signature="accountPageTitleTest()[pri:0, instance:com.OpenCart.test.AccountsPageTest@4f66ffc8]" started-at="2022-07-28T11:03:56Z" name="accountPageTitleTest" finished-at="2022-07-28T11:03:56Z" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountPageTitleTest -->
+        <test-method signature="accountSectionListTest()[pri:0, instance:com.OpenCart.test.AccountsPageTest@4f66ffc8]" started-at="2022-07-28T11:03:56Z" name="accountSectionListTest" finished-at="2022-07-28T11:03:56Z" duration-ms="121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountSectionListTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.test.AccountsPageTest@4f66ffc8]" started-at="2022-07-28T11:03:56Z" name="tearDown" finished-at="2022-07-28T11:03:56Z" duration-ms="134" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OpenCart.test.AccountsPageTest -->
+    </test> <!-- Accounts Page Test -->
+    <test started-at="2022-07-28T11:03:56Z" name="Registration Page Test" finished-at="2022-07-28T11:04:12Z" duration-ms="15913">
+      <class name="com.OpenCart.test.RegistrationPageTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OpenCart.test.RegistrationPageTest@42373389]" started-at="2022-07-28T11:03:56Z" name="setUp" finished-at="2022-07-28T11:03:59Z" duration-ms="3024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUpRegister()[pri:0, instance:com.OpenCart.test.RegistrationPageTest@42373389]" started-at="2022-07-28T11:03:59Z" name="setUpRegister" finished-at="2022-07-28T11:04:00Z" duration-ms="646" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpRegister -->
+        <test-method signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.RegistrationPageTest@42373389]" started-at="2022-07-28T11:04:00Z" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2022-07-28T11:04:03Z" duration-ms="2578" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[veena]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paniman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3231345646]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.RegistrationPageTest@42373389]" started-at="2022-07-28T11:04:03Z" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2022-07-28T11:04:07Z" duration-ms="3930" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mari]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paniman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3231995646]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.RegistrationPageTest@42373389]" started-at="2022-07-28T11:04:07Z" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2022-07-28T11:04:09Z" duration-ms="2461" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[josna]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paniman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3231340046]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.RegistrationPageTest@42373389]" started-at="2022-07-28T11:04:09Z" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2022-07-28T11:04:12Z" duration-ms="2195" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nermi]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[paniman]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[3231348846]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[test@123]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[no]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userRegistrationTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.test.RegistrationPageTest@42373389]" started-at="2022-07-28T11:04:12Z" name="tearDown" finished-at="2022-07-28T11:04:12Z" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.OpenCart.test.RegistrationPageTest -->
+    </test> <!-- Registration Page Test -->
+  </suite> <!-- Demo Cart Automation Test automtion regression suite -->
+</testng-results>

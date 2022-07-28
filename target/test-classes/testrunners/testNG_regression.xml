@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Demo Cart Automation Test automtion regression suite"
+	thread-count="1" parallel="tests" verbose="3">
+
+	<listeners>
+		<listener
+			class-name="com.OpenCart.listeners.ExtentReportListener" />
+			<listener
+			class-name="com.OpenCart.listeners.TestAllureListener" />
+	</listeners>
+
+
+	<test name="Login Page Test">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.OpenCart.test.LoginPageTest" />
+		</classes>
+
+	</test>
+
+	  <test name="Login Page negative Test">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.OpenCart.test.LoginNegativeTest" />
+		</classes>
+
+	</test>
+
+	 <test name="Accounts Page Test">
+		<parameter name="browser" value="chrome" />
+
+		<classes>
+			<class name="com.OpenCart.test.AccountsPageTest" />
+		</classes>
+
+	</test> 
+
+	<!-- <test name="Product Info Page Test"> <parameter name="browser" value="chrome" 
+		/> <classes> <class name="com.OpenCart.test.ProductInfoTest" /> </classes> 
+		</test> -->
+
+	<test name="Registration Page Test"> 
+		<parameter name="browser" value="chrome" 
+		
+		/> <classes> <class name="com.OpenCart.test.RegistrationPageTest"/> 
+		</classes> 
+		</test> 
+
+</suite>
