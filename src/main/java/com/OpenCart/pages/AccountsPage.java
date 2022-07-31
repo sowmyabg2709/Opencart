@@ -11,25 +11,31 @@ import org.openqa.selenium.WebElement;
 import com.OpenCart.utils.Constants;
 import com.OpenCart.utils.ElementUtil;
 
-
+/**
+ * Accounts page cases 
+ * @author SowmyaBG
+ *
+ */
 
 public class AccountsPage {
 
 	 public WebDriver driver;
 	 private ElementUtil elementUtil;
-	
+	 
+	//1.By locators	 
 	private By accSections = By.cssSelector("div#content h2");
 	private By header = By.xpath("//ul[@class='breadcrumb']//li/following-sibling::li/a");
 	private By logoutLink =By.linkText("Logout");
 	//private By searchField = By.name("search");
 	//private By searchButton = By.cssSelector("div#search button");
 	
+	//2.constructor 
 	public AccountsPage(WebDriver driver) {
 		this.driver = driver;
 		elementUtil = new ElementUtil(driver);
 	}
 	
-	
+	//3.public page actions (methods)
 	public String getaccountPageTitle() {
 		return elementUtil.waitForTitle(5, Constants.ACCOUNTS_PAGE_TITLE);
 	}

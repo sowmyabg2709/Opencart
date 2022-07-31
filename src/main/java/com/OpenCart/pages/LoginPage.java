@@ -7,15 +7,18 @@ import com.OpenCart.utils.Constants;
 import com.OpenCart.utils.ElementUtil;
 
 import io.qameta.allure.Step;
-
+/**
+ * Login page  
+ * @author SowmyaBG
+ *
+ */
 
 public class LoginPage {
-
 	
 	private ElementUtil elementUtil;
 	private WebDriver driver;
 	
-	//By locators
+	//1.By locators
 	private By username = By.id("input-email");
 	private By password = By.id("input-password");
 	private By loginButton = By.xpath("//input[@type='submit']");
@@ -28,8 +31,8 @@ public class LoginPage {
 			this.driver= driver;	
 			elementUtil =new ElementUtil(driver);
 		} 
-	//3.public page actions (methods)
 		
+	//3.public page actions (methods)		
 		public String getLoginPageTitle() {
 			return elementUtil.waitForTitle(5, Constants.LOGIN_PAGE_TITLE);
 		}

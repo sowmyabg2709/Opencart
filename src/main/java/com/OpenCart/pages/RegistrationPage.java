@@ -6,12 +6,17 @@ import org.openqa.selenium.WebDriver;
 import com.OpenCart.utils.Constants;
 import com.OpenCart.utils.ElementUtil;
 
-
+/**
+ * Registration page cases 
+ * @author SowmyaBG
+ *
+ */
 
 public class RegistrationPage {
 
 private ElementUtil elementUtil;
 	
+	//1.By locators	
 	private By firstName = By.id("input-firstname");
 	private By lastName = By.id("input-lastname");
 	private By email = By.id("input-email");
@@ -29,11 +34,12 @@ private ElementUtil elementUtil;
 	private By logoutLink = By.linkText("Logout");
 	private By registerLink= By.linkText("Register");
 	
+	//2.constructor
 	public RegistrationPage(WebDriver driver) {
 		elementUtil =new ElementUtil(driver);
 	}
 	
-	
+	//3.public page actions (methods)
 	public boolean accountRegistration(String firstName,String lastName,
 									String email,String phone,
 									String password,String subscribe) {
