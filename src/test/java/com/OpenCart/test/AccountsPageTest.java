@@ -10,6 +10,11 @@ import org.testng.annotations.Test;
 import com.OpenCart.base.BaseTest;
 import com.OpenCart.utils.Constants;
 
+/**
+ * Accounts page Test cases 
+ * @author SowmyaBG
+ *
+ */
 
 public class AccountsPageTest extends BaseTest{
 

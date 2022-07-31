@@ -2,40 +2,40 @@
 <testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-28T11:03:41Z" name="Demo Cart Automation Test automtion regression suite" finished-at="2022-07-28T11:04:12Z" duration-ms="30723">
+  <suite started-at="2022-07-31T10:22:18Z" name="Demo Cart Automation Test automtion regression suite" finished-at="2022-07-31T10:22:59Z" duration-ms="41241">
     <groups>
     </groups>
-    <test started-at="2022-07-28T11:03:41Z" name="Login Page Test" finished-at="2022-07-28T11:03:46Z" duration-ms="5185">
+    <test started-at="2022-07-31T10:22:18Z" name="Login Page Test" finished-at="2022-07-31T10:22:27Z" duration-ms="9494">
       <class name="com.OpenCart.test.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OpenCart.test.LoginPageTest@22a0d4ea]" started-at="2022-07-28T11:03:41Z" name="setUp" finished-at="2022-07-28T11:03:46Z" duration-ms="4750" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OpenCart.test.LoginPageTest@7d04529c]" started-at="2022-07-31T10:22:18Z" name="setUp" finished-at="2022-07-31T10:22:26Z" duration-ms="8464" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="logiPageTitleTest()[pri:1, instance:com.OpenCart.test.LoginPageTest@22a0d4ea]" started-at="2022-07-28T11:03:46Z" name="logiPageTitleTest" finished-at="2022-07-28T11:03:46Z" duration-ms="80" status="PASS">
+        <test-method signature="logiPageTitleTest()[pri:1, instance:com.OpenCart.test.LoginPageTest@7d04529c]" started-at="2022-07-31T10:22:26Z" name="logiPageTitleTest" finished-at="2022-07-31T10:22:26Z" duration-ms="209" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logiPageTitleTest -->
-        <test-method signature="loginPageUrlTest()[pri:2, instance:com.OpenCart.test.LoginPageTest@22a0d4ea]" started-at="2022-07-28T11:03:46Z" name="loginPageUrlTest" finished-at="2022-07-28T11:03:46Z" duration-ms="8" status="PASS">
+        <test-method signature="loginPageUrlTest()[pri:2, instance:com.OpenCart.test.LoginPageTest@7d04529c]" started-at="2022-07-31T10:22:27Z" name="loginPageUrlTest" finished-at="2022-07-31T10:22:27Z" duration-ms="27" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginPageUrlTest -->
-        <test-method signature="forgotPwdLinkTest()[pri:3, instance:com.OpenCart.test.LoginPageTest@22a0d4ea]" started-at="2022-07-28T11:03:46Z" name="forgotPwdLinkTest" finished-at="2022-07-28T11:03:46Z" duration-ms="43" status="PASS">
+        <test-method signature="forgotPwdLinkTest()[pri:3, instance:com.OpenCart.test.LoginPageTest@7d04529c]" started-at="2022-07-31T10:22:27Z" name="forgotPwdLinkTest" finished-at="2022-07-31T10:22:27Z" duration-ms="131" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgotPwdLinkTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.test.LoginPageTest@22a0d4ea]" started-at="2022-07-28T11:03:46Z" name="tearDown" finished-at="2022-07-28T11:03:46Z" duration-ms="150" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.test.LoginPageTest@7d04529c]" started-at="2022-07-31T10:22:27Z" name="tearDown" finished-at="2022-07-31T10:22:27Z" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.OpenCart.test.LoginPageTest -->
     </test> <!-- Login Page Test -->
-    <test started-at="2022-07-28T11:03:47Z" name="Login Page negative Test" finished-at="2022-07-28T11:03:52Z" duration-ms="4956">
+    <test started-at="2022-07-31T10:22:27Z" name="Login Page negative Test" finished-at="2022-07-31T10:22:33Z" duration-ms="5937">
       <class name="com.OpenCart.test.LoginNegativeTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OpenCart.test.LoginNegativeTest@36cc9385]" started-at="2022-07-28T11:03:47Z" name="setUp" finished-at="2022-07-28T11:03:49Z" duration-ms="2870" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OpenCart.test.LoginNegativeTest@472a11ae]" started-at="2022-07-31T10:22:27Z" name="setUp" finished-at="2022-07-31T10:22:31Z" duration-ms="3107" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.LoginNegativeTest@36cc9385]" started-at="2022-07-28T11:03:49Z" name="loginNegativeTest" data-provider="loginNegativeData" finished-at="2022-07-28T11:03:50Z" duration-ms="925" status="PASS">
+        <test-method signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.LoginNegativeTest@472a11ae]" started-at="2022-07-31T10:22:31Z" name="loginNegativeTest" data-provider="loginNegativeData" finished-at="2022-07-31T10:22:31Z" duration-ms="861" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -51,7 +51,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginNegativeTest -->
-        <test-method signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.LoginNegativeTest@36cc9385]" started-at="2022-07-28T11:03:50Z" name="loginNegativeTest" data-provider="loginNegativeData" finished-at="2022-07-28T11:03:51Z" duration-ms="471" status="PASS">
+        <test-method signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.LoginNegativeTest@472a11ae]" started-at="2022-07-31T10:22:31Z" name="loginNegativeTest" data-provider="loginNegativeData" finished-at="2022-07-31T10:22:32Z" duration-ms="909" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -67,7 +67,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginNegativeTest -->
-        <test-method signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.LoginNegativeTest@36cc9385]" started-at="2022-07-28T11:03:51Z" name="loginNegativeTest" data-provider="loginNegativeData" finished-at="2022-07-28T11:03:51Z" duration-ms="525" status="PASS">
+        <test-method signature="loginNegativeTest(java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.LoginNegativeTest@472a11ae]" started-at="2022-07-31T10:22:32Z" name="loginNegativeTest" data-provider="loginNegativeData" finished-at="2022-07-31T10:22:33Z" duration-ms="873" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -83,51 +83,51 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginNegativeTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.test.LoginNegativeTest@36cc9385]" started-at="2022-07-28T11:03:51Z" name="tearDown" finished-at="2022-07-28T11:03:52Z" duration-ms="145" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.test.LoginNegativeTest@472a11ae]" started-at="2022-07-31T10:22:33Z" name="tearDown" finished-at="2022-07-31T10:22:33Z" duration-ms="157" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.OpenCart.test.LoginNegativeTest -->
     </test> <!-- Login Page negative Test -->
-    <test started-at="2022-07-28T11:03:52Z" name="Accounts Page Test" finished-at="2022-07-28T11:03:56Z" duration-ms="4215">
+    <test started-at="2022-07-31T10:22:33Z" name="Accounts Page Test" finished-at="2022-07-31T10:22:38Z" duration-ms="4769">
       <class name="com.OpenCart.test.AccountsPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OpenCart.test.AccountsPageTest@4f66ffc8]" started-at="2022-07-28T11:03:52Z" name="setUp" finished-at="2022-07-28T11:03:54Z" duration-ms="2767" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OpenCart.test.AccountsPageTest@5300cac]" started-at="2022-07-31T10:22:33Z" name="setUp" finished-at="2022-07-31T10:22:36Z" duration-ms="2981" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="accPageSetUp()[pri:0, instance:com.OpenCart.test.AccountsPageTest@4f66ffc8]" started-at="2022-07-28T11:03:54Z" name="accPageSetUp" finished-at="2022-07-28T11:03:56Z" duration-ms="1132" status="PASS">
+        <test-method is-config="true" signature="accPageSetUp()[pri:0, instance:com.OpenCart.test.AccountsPageTest@5300cac]" started-at="2022-07-31T10:22:36Z" name="accPageSetUp" finished-at="2022-07-31T10:22:38Z" duration-ms="1305" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accPageSetUp -->
-        <test-method signature="accPageHeaderTest()[pri:0, instance:com.OpenCart.test.AccountsPageTest@4f66ffc8]" started-at="2022-07-28T11:03:56Z" name="accPageHeaderTest" finished-at="2022-07-28T11:03:56Z" duration-ms="35" status="PASS">
+        <test-method signature="accPageHeaderTest()[pri:0, instance:com.OpenCart.test.AccountsPageTest@5300cac]" started-at="2022-07-31T10:22:38Z" name="accPageHeaderTest" finished-at="2022-07-31T10:22:38Z" duration-ms="57" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accPageHeaderTest -->
-        <test-method signature="accountPageTitleTest()[pri:0, instance:com.OpenCart.test.AccountsPageTest@4f66ffc8]" started-at="2022-07-28T11:03:56Z" name="accountPageTitleTest" finished-at="2022-07-28T11:03:56Z" duration-ms="15" status="PASS">
+        <test-method signature="accountPageTitleTest()[pri:0, instance:com.OpenCart.test.AccountsPageTest@5300cac]" started-at="2022-07-31T10:22:38Z" name="accountPageTitleTest" finished-at="2022-07-31T10:22:38Z" duration-ms="20" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountPageTitleTest -->
-        <test-method signature="accountSectionListTest()[pri:0, instance:com.OpenCart.test.AccountsPageTest@4f66ffc8]" started-at="2022-07-28T11:03:56Z" name="accountSectionListTest" finished-at="2022-07-28T11:03:56Z" duration-ms="121" status="PASS">
+        <test-method signature="accountSectionListTest()[pri:0, instance:com.OpenCart.test.AccountsPageTest@5300cac]" started-at="2022-07-31T10:22:38Z" name="accountSectionListTest" finished-at="2022-07-31T10:22:38Z" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountSectionListTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.test.AccountsPageTest@4f66ffc8]" started-at="2022-07-28T11:03:56Z" name="tearDown" finished-at="2022-07-28T11:03:56Z" duration-ms="134" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.test.AccountsPageTest@5300cac]" started-at="2022-07-31T10:22:38Z" name="tearDown" finished-at="2022-07-31T10:22:38Z" duration-ms="174" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.OpenCart.test.AccountsPageTest -->
     </test> <!-- Accounts Page Test -->
-    <test started-at="2022-07-28T11:03:56Z" name="Registration Page Test" finished-at="2022-07-28T11:04:12Z" duration-ms="15913">
+    <test started-at="2022-07-31T10:22:38Z" name="Registration Page Test" finished-at="2022-07-31T10:22:59Z" duration-ms="20505">
       <class name="com.OpenCart.test.RegistrationPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OpenCart.test.RegistrationPageTest@42373389]" started-at="2022-07-28T11:03:56Z" name="setUp" finished-at="2022-07-28T11:03:59Z" duration-ms="3024" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.OpenCart.test.RegistrationPageTest@1aabf50d]" started-at="2022-07-31T10:22:38Z" name="setUp" finished-at="2022-07-31T10:22:41Z" duration-ms="3089" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method is-config="true" signature="setUpRegister()[pri:0, instance:com.OpenCart.test.RegistrationPageTest@42373389]" started-at="2022-07-28T11:03:59Z" name="setUpRegister" finished-at="2022-07-28T11:04:00Z" duration-ms="646" status="PASS">
+        <test-method is-config="true" signature="setUpRegister()[pri:0, instance:com.OpenCart.test.RegistrationPageTest@1aabf50d]" started-at="2022-07-31T10:22:41Z" name="setUpRegister" finished-at="2022-07-31T10:22:42Z" duration-ms="704" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpRegister -->
-        <test-method signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.RegistrationPageTest@42373389]" started-at="2022-07-28T11:04:00Z" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2022-07-28T11:04:03Z" duration-ms="2578" status="PASS">
+        <test-method signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.RegistrationPageTest@1aabf50d]" started-at="2022-07-31T10:22:44Z" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2022-07-31T10:22:47Z" duration-ms="3869" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -158,7 +158,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistrationTest -->
-        <test-method signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.RegistrationPageTest@42373389]" started-at="2022-07-28T11:04:03Z" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2022-07-28T11:04:07Z" duration-ms="3930" status="PASS">
+        <test-method signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.RegistrationPageTest@1aabf50d]" started-at="2022-07-31T10:22:47Z" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2022-07-31T10:22:51Z" duration-ms="3338" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -189,7 +189,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistrationTest -->
-        <test-method signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.RegistrationPageTest@42373389]" started-at="2022-07-28T11:04:07Z" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2022-07-28T11:04:09Z" duration-ms="2461" status="PASS">
+        <test-method signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.RegistrationPageTest@1aabf50d]" started-at="2022-07-31T10:22:51Z" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2022-07-31T10:22:55Z" duration-ms="4466" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -220,7 +220,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistrationTest -->
-        <test-method signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.RegistrationPageTest@42373389]" started-at="2022-07-28T11:04:09Z" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2022-07-28T11:04:12Z" duration-ms="2195" status="PASS">
+        <test-method signature="userRegistrationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.OpenCart.test.RegistrationPageTest@1aabf50d]" started-at="2022-07-31T10:22:55Z" name="userRegistrationTest" data-provider="getRegisterData" finished-at="2022-07-31T10:22:59Z" duration-ms="3369" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -251,7 +251,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- userRegistrationTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.test.RegistrationPageTest@42373389]" started-at="2022-07-28T11:04:12Z" name="tearDown" finished-at="2022-07-28T11:04:12Z" duration-ms="157" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.OpenCart.test.RegistrationPageTest@1aabf50d]" started-at="2022-07-31T10:22:59Z" name="tearDown" finished-at="2022-07-31T10:22:59Z" duration-ms="221" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

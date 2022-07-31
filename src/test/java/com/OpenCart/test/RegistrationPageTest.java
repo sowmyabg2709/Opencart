@@ -11,7 +11,11 @@ import com.OpenCart.base.BaseTest;
 import com.OpenCart.utils.Constants;
 import com.OpenCart.utils.ExcelUtil;
 
-
+/**
+ * Registeration page Test cases 
+ * @author SowmyaBG
+ *
+ */
 
 public class RegistrationPageTest extends BaseTest{
 

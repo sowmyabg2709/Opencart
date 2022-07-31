@@ -5,6 +5,12 @@ import org.testng.annotations.Test;
 
 import com.OpenCart.base.BaseTest;
 
+/**
+ * Login page Negative Test cases 
+ * @author SowmyaBG
+ *
+ */
+
 public class LoginNegativeTest extends BaseTest{
 
 	

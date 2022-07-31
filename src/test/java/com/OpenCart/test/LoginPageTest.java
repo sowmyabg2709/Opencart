@@ -12,6 +12,12 @@ import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 import io.qameta.allure.Story;
 
+/**
+ * Login page Test cases 
+ * @author SowmyaBG
+ *
+ */
+
 @Epic("Epic:Design login page for demo app")
 @Story("US1:Develop feature with all login page scenarios")
 public class LoginPageTest extends BaseTest{

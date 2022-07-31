@@ -15,14 +15,14 @@ import com.OpenCart.utils.ElementUtil;
 
 public class AccountsPage {
 
-	private WebDriver driver;
+	 public WebDriver driver;
 	 private ElementUtil elementUtil;
 	
 	private By accSections = By.cssSelector("div#content h2");
 	private By header = By.xpath("//ul[@class='breadcrumb']//li/following-sibling::li/a");
 	private By logoutLink =By.linkText("Logout");
-	private By searchField = By.name("search");
-	private By searchButton = By.cssSelector("div#search button");
+	//private By searchField = By.name("search");
+	//private By searchButton = By.cssSelector("div#search button");
 	
 	public AccountsPage(WebDriver driver) {
 		this.driver = driver;
