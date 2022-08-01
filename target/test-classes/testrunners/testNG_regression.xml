@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 
 <suite name="Demo Cart Automation Test automtion regression suite"
-	thread-count="1" parallel="tests" verbose="3">
+	thread-count="3" parallel="tests" verbose="3">
 
 	<listeners>
 		<listener
