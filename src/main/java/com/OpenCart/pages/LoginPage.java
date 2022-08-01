@@ -22,7 +22,7 @@ public class LoginPage {
 	private By username = By.id("input-email");
 	private By password = By.id("input-password");
 	private By loginButton = By.xpath("//input[@type='submit']");
-	private By forgotPasswordLink=By.xpath("//div[@class='form-group']/a[text()='Forgotten Password']");
+	private By forgotPasswordLink=By.xpath("//div[@class='form-group']/a[text()='Forgotten Password']11");
 	private By registerLink = By.linkText("Register");
 	private By loginErrorMessage= By.cssSelector("div.alert.alert-danger.alert-dismissible");
 	
